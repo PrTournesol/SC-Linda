@@ -36,13 +36,13 @@ A memory space of tuples allows to share data of diverse types with others local
 ###Launch
 To make this application work, you need to launch the server (or **Server**) first, then launch the **IHM** which automatically create a **Client** object. The mains for each implementation are in the files:
 * Shared memory:
-..* **Client** and **Server**: *shm/MainShm.java*
+  * **Client** and **Server**: *shm/MainShm.java*
 * Server:
-..* **Client**: *server/MainPrClient.java*
-..* **Server**: *server/MainPrServer.java*
+  * **Client**: *server/MainPrClient.java*
+  * **Server**: *server/MainPrServer.java*
 * Multi-Server:
-..* **Client**: *server/MainPrClient.java*
-..* **Server**: *server/MainPrMultiServer.java*
+  * **Client**: *server/MainPrClient.java*
+  * **Server**: *server/MainPrMultiServer.java*
 
 ##Details
 ###Shared memory
