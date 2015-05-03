@@ -45,17 +45,17 @@ To make this application work, you need to launch the server (or **Server**) fir
 
 ##Details
 ###Shared memory
-    ![Shared memory implementation architecture](https://github.com/pleleux-enseeiht/SC-Linda/blob/master/Graphics/Architecture%20Cenralized%20Linda.png "Shared memory implementation architecture")
+![Shared memory implementation architecture](https://github.com/pleleux-enseeiht/SC-Linda/blob/master/Graphics/Architecture%20Cenralized%20Linda.png "Shared memory implementation architecture")
 
 The user sees the **IHM** (Interface Human Machine) which allows to enter a tuple and access all actions of the Client element. The client then make the queries to the Shared Memory space: **Centralized Linda** (**CL**). Several Clients can access **CL** at the same time
 
 ###Server
-    ![Server implementation architecture](https://github.com/pleleux-enseeiht/SC-Linda/blob/master/Graphics/Architecture%20Serveur%20Linda.png "Server implementation architecture")
+![Server implementation architecture](https://github.com/pleleux-enseeiht/SC-Linda/blob/master/Graphics/Architecture%20Serveur%20Linda.png "Server implementation architecture")
 
 For the user it's all the same. The **Server** is only receiving the requests from the **Client** and forwarding the request to an internal **CentralizedLinda** as in the shared memory version.
 
 ###Multi-Server
-    ![Multi-server implementation architecture](https://github.com/pleleux-enseeiht/SC-Linda/blob/master/Graphics/Architecture%20Multi-Serveur%20Linda.png "Multi-server implementation architecture")
+![Multi-server implementation architecture](https://github.com/pleleux-enseeiht/SC-Linda/blob/master/Graphics/Architecture%20Multi-Serveur%20Linda.png "Multi-server implementation architecture")
 
 While the servers are interconnected, some can be not connected, each server memorizes the ID of all servers he is connected to. Ex:
     ![Multi-server structure example](https://github.com/pleleux-enseeiht/SC-Linda/blob/master/Graphics/Sch%C3%A9ma%20multi-serveur.png "Multi-server structure example")
